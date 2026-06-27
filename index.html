@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Student Study Planner</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+
+<h1>📚 Smart Student Study Planner</h1>
+
+<p>Plan Smart • Study Better • Achieve More</p>
+
+</header>
+
+<div class="container">
+
+<div class="quote-box">
+
+<h2>💡 Daily Motivation</h2>
+
+<p id="quote">
+Believe in yourself. Every study session brings you closer to success.
+</p>
+
+<button id="newQuote">
+New Quote
+</button>
+
+</div>
+
+<div class="grid">
+
+<div class="card">
+
+<h2>📖 Add Subject</h2>
+
+<input
+type="text"
+id="subjectInput"
+placeholder="Enter Subject">
+
+<button id="addSubject">
+Add Subject
+</button>
+
+<ul id="subjectList"></ul>
+
+</div>
+
+<div class="card">
+
+<h2>✅ To-Do List</h2>
+
+<input
+type="text"
+id="taskInput"
+placeholder="Enter Task">
+
+<button id="addTask">
+Add Task
+</button>
+
+<ul id="taskList"></ul>
+
+</div>
+
+</div>
+
+<div class="grid">
+
+<div class="card">
+
+<h2>📅 Daily Schedule</h2>
+
+<input type="time" id="scheduleTime">
+
+<input
+type="text"
+id="scheduleTask"
+placeholder="Task">
+
+<button id="addSchedule">
+Add Schedule
+</button>
+
+<ul id="scheduleList"></ul>
+
+</div>
+
+<div class="card">
+
+<h2>📊 Progress Tracker</h2>
+
+<div class="progress">
+
+<div id="progressBar"></div>
+
+</div>
+
+<h3 id="progressText">
+0% Completed
+</h3>
+
+</div>
+
+</div>
+
+<div class="timer-card">
+
+<h2>⏱️ Pomodoro Timer</h2>
+
+<div id="timer">
+25:00
+</div>
+
+<div class="timer-buttons">
+
+<button id="startTimer">
+Start
+</button>
+
+<button id="pauseTimer">
+Pause
+</button>
+
+<button id="resetTimer">
+Reset
+</button>
+
+</div>
+
+</div>
+
+<div class="footer">
+
+<p>
+
+Made with ❤️ using HTML, CSS & JavaScript
+
+</p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
